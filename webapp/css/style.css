@@ -1,0 +1,112 @@
+#AddImg
+{
+	max-height: 2.5%;
+	max-width: 2.5%;
+	min-height: 40px;
+	min-width: 40px;
+}
+
+#BinImg, #EditImg
+{
+	max-height: 25%;
+	max-width: 25%;
+	min-height: 40px;
+	min-width: 40px;
+}
+
+#Home1Img
+{
+	max-height: 2.3%;
+	max-width: 2.3%;
+	min-height: 40px;
+	min-width: 40px;
+}
+
+#Home2Img
+{
+	max-height: 11%;
+	max-width: 11%;
+	min-height: 40px;
+	min-width: 40px;
+	float: left;
+}
+
+img:hover
+{
+	transition: transform 1s; /* 1 second duration of transform element */
+	transform: scale(1.5, 1.5); /* when hovering, image size scaled-up 1.5x */
+}
+
+#IndexHTML
+{
+	font-family: Arial; /* font family of HTML document */
+	margin-top: 3%; /* left margin 15% of web page width */
+	margin-left: 1%; /* left margin 15% of web page width */
+	margin-right: 1%; /* right margin 15% of web page width */
+	background-color: #FFFFFF; /* web site background colour */
+}
+
+#AddUpdateHTML
+{
+	font-family: Arial; /* font family of HTML document */
+	margin-top: 3%; /* left margin 15% of web page width */
+	margin-left: 38%; /* left margin 15% of web page width */
+	margin-right: 38%; /* right margin 15% of web page width */
+	background-color: #FFFFFF; /* web site background colour */
+}
+
+h1
+{
+	color: #000000; /* black font colour */
+	text-align: center; /* positions header text in centre */
+	text-decoration: underline;
+}
+
+#DelUp
+{
+	max-width: 20px;
+}
+
+#IndexTable, #IndexTable th, #IndexTable td
+{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+ 	border-collapse: collapse;
+ 	padding: 0px 9px;
+}
+
+#IndexTable
+{
+	width: 100%; /* width of table 100% of web site width */
+	text-align: center; /* positions header text in centre */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+ 	border-collapse: collapse;
+}
+
+#IndexTable th
+{
+	font-size: 16px; /* font size of table */
+	padding: 5px 9px;
+}
+
+#IndexTable td
+{
+	font-size: 14px; /* font size of table */
+}
+
+#AddTable, #UpdateTable
+{
+	width: 100%; /* width of table 100% of web site width */
+	font-size: 14px; /* font size of table */
+}
+
+#AddTable td, #UpdateTable td
+{
+	padding: 3px 0px;
+}
+
+tr:hover
+{
+	background-color: #9975B9; /* when hovering over table row, background colour becomes purple */
+}
